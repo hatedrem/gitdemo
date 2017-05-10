@@ -176,4 +176,4 @@
 
 - git branch --set-upstream develop origin/develop
 
-- git dirr
+- git 
