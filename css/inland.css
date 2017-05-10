@@ -1,0 +1,291 @@
+.money_head{
+    width: 100%;
+     height:44px;
+    background:#ff841d;
+    color:#fff;
+    position: relative;
+}
+.money_head .head_left{
+    position:absolute;
+    width: 50px;
+    text-align: center;
+    line-height: 44px;
+    font-size:20px;
+    color:#fff;
+    font-weight: bold;
+}
+.money_head h1{
+    width: 100%;
+    padding:0px 50px;
+    font-size:20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 44px;
+}
+.money_head .head_right{
+    position: absolute;
+    right:10px;
+    top:10px;
+    width:25px;
+
+    font-size:20px;
+    color:#fff;
+}
+/*详情页start*/
+.product_info{
+    padding:4px 10px;
+    width: 100%;
+}
+.product_info h3{
+    color:#5a5a5a;
+    font-size:18px;
+    font-weight: bold;
+    margin:10px auto 8px auto;
+    text-align: left;
+}
+.product_info h4{
+    color:#ff6c00;
+    font-size:15px;
+    text-align: left;
+}
+.product_info .shop_name{
+    margin:12px auto;
+    color:#999999;
+    font-size:12px;
+    vertical-align: middle;
+}
+.product_info .shop_name span{
+    display:inline-block;
+}
+.product_info .shop_name .small{
+    margin:0px 4px;
+}
+.product_info .shop_name .time{
+    margin-right:3px;
+}
+.product_info .shop_name .buy{
+    margin-right:3px;
+}
+.product_info .shop_name .think{
+    margin-right:3px;
+}
+.product_info .shop_name .think a{
+        color:#4682c5;
+}
+.product_info .container{
+
+}
+
+.product .container .container_img{
+    width: 120px;
+    float:right;
+    margin:12px auto auto 10px;
+    overflow: hidden;
+}
+.product .container .container_img img{
+    width: 120px;
+    height: 120px;
+
+}
+.product .container .container_info{
+    font-size: 16px;
+    color:#606060;
+    padding_bottom:20px;
+    line-height: 24px;
+}
+.product .container .container_info p{
+    margin:6px auto;
+    line-height: 24px;
+}
+.product .product_img{
+    text-align: center;
+    margin:10px auto;
+}
+.product .product_img img{
+    max-width:100%;
+    height:auto;
+    vertical-align: middle;
+}
+.product .product_info .close img{
+    max-width: 100%;
+    height:auto;
+    vertical-align: middle;
+}
+.product .product_info .product_content{
+    padding:10px 0;
+}
+.product .product_info .product_content  .drop ul li{
+    font-size: 12px;
+    font-family: "Microsoft Yahei";
+    line-height: 20px;
+}
+.product .product_info .product_content .drop ul li a{
+    display: block;
+    padding:0 10px;
+}
+.product .product_info .product_content .drop ul li a span{
+    border-bottom:1px dotted #c0c0c0;
+    display: block;
+    padding:2px 10px;
+    text-align: left;
+}
+.product .product_info .product_content .drop ul li strong{
+    color:#f27b04;
+    float:right;
+    font-weight: normal;
+}
+.product .product_info .product_content .drop{
+    margin:0 auto;
+    padding: 0px 0px 10px 0px;
+    background-color: #ffffff;
+    width: 138px;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.1);
+    border-color: #f1f1f1 #f1f1f1 #dbdbdb #f1f1f1;
+    border-width: 0px 1px 1px 1px;
+    border-style: solid;
+}
+.product .product_info .goBuy{
+    margin:10px 10px;
+}
+.product .product_info .goBuy a{
+    display: block;
+    background-color: #ff9000;
+    border-radius: 4px;
+    font-size:14px;
+    color:#fff;
+    text-align: center;
+    height:40px;
+    line-height: 40px;
+}
+.product .product_info .send{
+
+}
+.product .product_info .send h3{
+    padding:6px 8px;
+    font-size:16px;
+    font-weight: 500;
+    margin: 0px;
+}
+.product .product_info .send textarea{
+    width: 100%;
+    height:68px;
+    font-size:14px;
+    color:#666;
+    line-height: 22px;
+}
+.product .product_info .send_container{
+    border:2px solid #ECEAE8;
+    border-radius: 2px;
+    padding:4px 0px 0px 4px;
+    background: #fff;
+    width: 98%;
+    margin:0 auto;
+    position:relative
+}
+.product .product_info .send .ctrl{
+    height: 36px;
+    background:#fbfbfb;
+    height:36px;
+    border-top:1px solid #f2f2f2;
+    margin-left:-4px;
+}
+.product .product_info .send .ctrl input{
+    position: absolute;
+    right:-2px;
+    bottom:-2px;
+    background:#ff841d;
+    border:2px solid #ff841d;
+    border-left:none;
+    border-top:none;
+    width: 100px;
+    height: 39px;
+    color:#fff;
+    border-radius: 0 0 2px 0;
+    font-size:16px;
+}
+.product h3{
+    font-size:16px;
+    padding:6px 8px;
+    font-weight: 500;
+}
+.product .list{
+
+}
+.product .list ul li{
+    padding:18px 10px;
+    background:#fff;
+}
+.product .list ul li .list_img{
+    width: 40px;
+    float:left;
+    overflow: hidden;
+}
+.product .list ul li .list_img img{
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+}
+.product .list ul li .list_container{
+    overflow: hidden;
+    padding-left:10px;
+}
+.product .list ul li .list_container .name{
+    margin-bottom:6px;
+    color:#2e8b01;
+    font-size:14px;
+}
+.product .list ul li .list_container .name .userName{
+    float:left;
+    color:#5997c0;
+    font-size:13px;
+}
+.product .list ul li .list_container .name .userTime{
+    float:right;
+}
+.product .list ul li .list_container .list_contnet{
+    color:#606060;
+    font-size:15px;
+    line-height: 20px;
+}
+/*详情页end*/
+/*首页start*/
+.index{
+    background:#ebebeb;
+    border-top:solid 1px #ebebeb;
+    border-bottom:1px solid #ccc;
+    padding-left:8px;
+  
+}
+.index a{
+    display: block;
+     font-size:14px;
+    font-weight: bold;
+     height:36px;
+    line-height: 36px;
+}
+/*首页end*/
+
+.cu-content-pl{ background-color: #ffffff;}
+.cu-content-pl .hover { background-color: #f8f8f8 !important; }
+.cu-content-pl .tit{ font-size: 16px; padding: 6px 8px;}
+.cu-content-pl .reply{ padding:6px 8px;}
+.cu-content-pl .reply .form{border: 2px solid #ECEAE8; border-radius: 2px; padding: 4px 0 0 4px; background-color: #fff; position: relative; width:98%; margin:0px auto;}
+.cu-content-pl .reply .form textarea{width: 100%; resize: none; overflow-x: hidden; overflow-y: auto; border: none; line-height: 22px; font-size: 14px; outline: 0; color: #666; height: 68px;}
+.cu-content-pl .reply .form .ctrl{background-color: #fbfbfb; height: 36px; margin-left: -4px;border-top: solid 1px #f2f2f2;}
+.cu-content-pl .reply .form .ctrl button{position: absolute; right: -2px; bottom: -2px; background: #ff841d; border: none; border: 2px solid #ff841d; border-left: none; border-top: none; padding: 0px; width: 100px; height: 39px; color: #fff; outline: 0; border-radius: 0 0 2px 0; font-size: 16px;}
+.cu-content-pl .reply .form .ctrl input{position: absolute; right: -2px; bottom: -2px; background: #ff841d; border: none; border: 2px solid #ff841d; border-left: none; border-top: none; padding: 0px; width: 100px; height: 39px; color: #fff; outline: 0; border-radius: 0 0 2px 0; font-size: 16px; -webkit-appearance: none;}
+.cu-content-pl .list ul li { padding: 18px 10px; background-color: #FFFFFF; }
+.cu-content-pl .list .userimg { width: 40px; float: left; overflow: hidden; }
+.cu-content-pl .list .userimg img { width: 40px; background-position: top; border-radius: 20px; height: 40px; }
+.cu-content-pl .list .con { overflow: hidden; padding-left: 10px; }
+.cu-content-pl .list .con .name { margin-bottom: 6px; }
+.cu-content-pl .list .con .name .username { color: #5997c0; font-size: 13px !important; float: left; }
+.cu-content-pl .list .con .name .time { color: #999999; font-size: 13px !important; float: right; }
+.cu-content-pl .list .con .yinyong { background-color: #FBFBFB; border: 1px solid #eeeeee; padding: 4px 6px; border-radius: 3px; margin-top: 2px; }
+.cu-content-pl .list .con .yinyong .item:first-child { border-top: none; }
+.cu-content-pl .list .con .yinyong span { display: block; margin-bottom: 3px; font-size: 13px !important; }
+.cu-content-pl .list .con .content { word-break: break-all; font-size: 15px !important; color: #606060; line-height: 20px; }
+.cu-content-pl .list .con .content img{ vertical-align: middle;}
+.cu-content-pl .more{ text-align: center; color: #999999; line-height: 70px;}
+.cu-content-pl .no-comment{color: #999999; padding: 20px 0px;font-size: 12px;}
+.cu-content-pl .no-comment .icon-shafa{background-image: url("data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1024 1024' width='40'><path fill='#999999' d='M241.40288 237.26464c4.532224 100.75648-41.708544 138.85952-102.218752 159.

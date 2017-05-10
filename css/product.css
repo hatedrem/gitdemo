@@ -1,0 +1,47 @@
+.skip{
+    height: 30px;
+    line-height: 30px;
+    background-color: #c4c4c4;
+    padding-left:10px;
+}
+.skip a{
+    font-size:14px;
+}
+.commodity_info p.productp{
+    min-height:0px;
+}
+.commodity_info .price{
+    font-size:14px;
+    color:red;
+    font-weight: bold;
+    display: block;
+    line-height: 30px;
+}
+.page{
+    width: 100%;
+    text-align: center;
+}
+.page .select{
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    border:1px solid #bababa;
+    background:#ccc;
+    text-align: center;
+    line-height: 30px;
+
+}
+.page .prevPage{
+       float:left;
+       margin-left:10px;
+       width:100px;
+       text-align: center;
+       height:30px;
+}
+.page .nextPage{
+    float:right;
+       height:30px;
+        width:100px;
+       text-align: center;
+       margin-right:10px;
+}

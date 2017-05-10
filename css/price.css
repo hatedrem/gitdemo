@@ -1,0 +1,51 @@
+/*家具start*/
+
+.tool {
+    background: #e6e6e6;
+    width: 100%;
+    border-top: 1px solid #c4c4c4;
+    padding: 5px;
+}
+
+.tool .tool_list {
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+}
+.tool .tool_list .tlists .liclick{
+    background-color: #f9f9f9;
+    width: 100%;
+}
+.tool .tool_list .tlists .liclick a{
+    width:33.3%;
+    color:#333;
+    float:left;
+    height:40px;
+    line-height: 40px;
+    border-right:1px solid #ccc;
+    border-right:1px solid #ccc;
+    /*overflow: hidden;*/
+    font-size:12px;
+}
+
+.tool .tool_list a {
+    padding-left: 16px;
+    color: #000;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+
+}
+
+.tool .tool_list a .icon_bottom {
+    float: right;
+    padding-right: 10px;
+    font-size: 20px;
+    vertical-align: center;
+    font-weight: normal;
+}
+
+
+/*家具end*/

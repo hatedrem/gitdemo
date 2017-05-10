@@ -1,0 +1,118 @@
+
+/*菜单start*/
+
+.menu ul li{
+    float:left;
+    width: 25%;
+    /*overflow: hidden;*/
+    text-align: center;
+    padding:10px 0px;
+    font-size: 13px;
+    color:#5a5a5a;
+}
+.menu ul li a{
+    display: block;
+}
+.menu ul li a img{
+    display: block;
+    margin:0 auto;
+    width:50px;
+    padding-bottom:5px;
+}
+.menu ul li a span{
+    padding-top:5px;
+}
+/*菜单end*/
+/*超值优惠折扣start*/
+.discount{
+    background:#ff9000;
+    height:35px;
+    padding-left:10px; 
+    border-bottom:solid 1px #ffc881;
+    position:relative;
+    width: 100%;
+}
+.discount a{
+    display:block;
+    line-height: 35px;
+    font-size:18px;
+     font-weight:bold;
+}
+.discount a span{
+    color:#fff;
+}
+.discount a img{
+    position: absolute;
+    top:7px;
+    right:10px;
+    width: 20px;
+    height: 20px;
+
+}
+
+/*超值优惠折扣end*/
+/*商品信息start*/
+.commodity{
+    width: 100%;
+    height:auto;
+}
+.commodity ul li{
+    padding:14px 8px;
+}
+.commodity ul li a{
+    display: block;
+    
+}
+.commodity ul li a img{
+    float:left;
+    width: 100px;
+    height: 100px;
+}
+.commodity .commodity_info{
+    overflow: hidden;
+    padding-left:10px;
+
+}
+.commodity .commodity_info .iconcomments{
+    font-size:12px;
+    padding-right:10px;
+}
+.commodity .commodity_info p{
+        color: #333333;
+    word-break: break-all;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: left;
+    font-weight: normal;
+    min-height:70px;
+}
+.commodity .commodity_info p span{
+    color:#ff6c00;
+    
+}
+.commodity .commodity_info .company_info{
+    margin-top:8px;
+    color:#a1a1a1;
+}
+.commodity .commodity_info .company_info .company_indor{
+    width: 14px;
+    height: 15px;
+    background:url(../images/)
+}   
+ 
+/*商品信息end*/
+/*信息查询start*/
+.search_info{
+
+}
+.search_info a{
+    display: block;
+    line-height: 30px;
+    background:#f4f4f4;
+    font-size:13px;
+     text-align: center;
+     border:1px solid #dddddd;
+     border-radius:4px;
+     margin:10px;
+}
+/*信息查询end*/

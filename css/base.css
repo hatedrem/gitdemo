@@ -1,0 +1,219 @@
+/*reset css  重置默认的一些样式  浏览器子自带的  目的是保持各种终端显示一致*/
+
+
+/*所有的标签和伪类  before after*/
+
+*,
+::before,
+::after {
+    padding: 0;
+    margin: 0;
+    /*在移动端特殊的设置*/
+    /*清除点击高亮效果*/
+    -webkit-tap-highlight-color: transparent;
+    /*设置所有的盒子的宽度以边框开始计算*/
+    -webkit-box-sizing: border-box;
+    /*要兼容 webkit 浏览器内核厂商 这种情况一般是老的移动端浏览器*/
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    color: #333;
+    font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif !important;
+    /*是设备默认的字体*/
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+
+/*a{
+    text-decoration: none;
+    color: #333;
+}
+a:hover{
+    color: #333;
+}*/
+
+a {
+    font: 12px Arial;
+    text-decoration: none;
+    color: #404040;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #FF3300
+}
+a:visited{
+    /*text-decoration:none;*/
+    text-decoration-style: none;
+    color:#404040;
+}
+
+input,
+textarea {
+    border: none;
+    outline: none;
+    resize: none;
+    /*特殊的属性定义  清除浏览器给input自带的样式*/
+    -webkit-appearance: none;
+    /*组件默认的样式空*/
+}
+
+
+/*common css  也就是我们公用的css*/
+
+.f_left {
+    float: left;
+}
+
+.f_right {
+    float: right;
+}
+
+.clearfix::after,
+.clearfix::before {
+    content: ".";
+    line-height: 0;
+    height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+.m_r10 {
+    margin-right: 10px;
+}
+
+.m_l10 {
+    margin-left: 10px;
+}
+
+.m_t10 {
+    margin-top: 10px;
+}
+
+.m_b10 {
+    margin-bottom: 10px;
+}
+
+.mianColor {
+    color: #d8505c;
+}
+
+.fixation {
+    min-width: 300px;
+    max-width: 640px;
+}
+/*头部start*/
+.header{
+    height:50px;
+    background:#ff841d;
+}
+.header .header_logo {
+    width:75%;
+    margin-left:5px;
+    padding:12px;
+}
+
+.header .header_logo img{
+    max-height:25px;
+}
+.header .header_pic{
+    padding:7px;
+}
+.header .header_pic img{
+    max-height: 34px;
+    overflow: hidden;
+}
+/*头部end*/
+
+/*搜索start*/
+.search{
+    border-bottom: 1px solid #e6e6e6;
+    padding: 10px;
+    position: relative;
+    background-color: White;
+}
+.search .search_btn1{
+    background: #f1f1f1;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    padding-left: 10px;
+    width: 90%;
+    font-size: 16px;
+}
+.search .search_btn2{
+    position:absolute;
+    height:30px;
+    border-radius:15px;
+   width:63px;
+    right:10px;
+    background:#ff841d;
+    color:#ffffff;
+    font-size:16px;
+}
+/*搜索end*/
+/*底部start*/
+.footer{
+    margin-top:10px;
+
+}
+.footer_top{
+    height:34px;
+    line-height: 34px;
+    width:100%;
+    border-top:1px solid #c4c4c4;
+    border-bottom:1px solid #c4c4c4;
+    background:#efefef;
+
+}
+.footer_top .return{
+    font-size: 20px;
+    vertical-align:bottom;
+}
+.footer_top a{
+    display: block;
+    float:left;
+    width: 30%;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    font-size:14px;
+    border-right:1px solid #c4c4c4;
+}
+.footer_top .a_right{
+     display: block;
+    float:left;
+    width: 40%;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    font-size:14px;
+}
+.footer_top a img{
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+}
+.footer_bottom{
+    text-align: center;
+    color:#666;
+    padding:15px 0px;
+    background:#efefef;
+}   
+.footer_bottom p{
+    font-size:10px;
+    line-height: 15px;
+}
+.footer_bottom p span{
+    color:red;
+    font-size:12px;
+}
+/*底部end*/

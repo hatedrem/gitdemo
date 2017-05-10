@@ -1,0 +1,45 @@
+.skip{
+    height: 30px;
+    line-height: 30px;
+    background-color: #c4c4c4;
+    padding-left:10px;
+}
+.skip a{
+    font-size:14px;
+}
+.info_main{
+    margin-top:10px;
+}
+.info_main p{
+    padding:10px;
+    font-size:16px;
+    text-align:center;
+    font-weight:bold;
+}
+.info_main .info_img{
+    text-align: center;
+    padding:10px 0px;
+   height:160px;
+   overflow: hidden;
+}
+.info_main img{
+    max-width: 160px;
+    min-width: 160px;
+}
+.info_price{
+    font-size:12px;
+    color:#888;
+    padding:8px 10px;
+    line-height:18px;
+
+}
+.comment{
+    margin-top:5px;
+    height:34px;
+    line-height: 34px;
+    text-align: center;
+    font-size: 14px;
+    border:1px solid #fff;
+       border-top:4px solid #7a7a7a;
+    background:#dbdbdb;
+}

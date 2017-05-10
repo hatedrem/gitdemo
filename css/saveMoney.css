@@ -1,0 +1,115 @@
+.money_head{
+    width: 100%;
+     height:44px;
+    background:#ff841d;
+    color:#fff;
+    position: relative;
+}
+.money_head .head_left{
+    /*float:left;*/
+    position:absolute;
+    width: 50px;
+    text-align: center;
+    line-height: 44px;
+    font-size:20px;
+    color:#fff;
+    font-weight: bold;
+    z-index:10;
+}
+.money_head h1{
+    width: 100%;
+    padding:0px 50px;
+    font-size:20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 44px;
+    position:relative;
+}
+.money_head .head_right{
+    position: absolute;
+    right:10px;
+    top:10px;
+    width:25px;
+
+    font-size:20px;
+    color:#fff;
+    font-weight: bold;
+}
+/*信息start*/
+.commodity{
+    width: 100%;
+    height:auto;
+}
+.commodity ul li{
+    padding:14px 8px;
+}
+.commodity ul li a{
+    display: block;
+    
+}
+.commodity ul li a img{
+    float:left;
+    width: 100px;
+    height: 100px;
+}
+.commodity .commodity_info{
+    overflow: hidden;
+    padding-left:10px;
+
+}
+.commodity .commodity_info .iconcomments{
+    font-size:12px;
+    padding-right:10px;
+}
+.commodity .commodity_info p{
+        color: #333333;
+    word-break: break-all;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: left;
+    font-weight: normal;
+    min-height:70px;
+}
+.commodity .commodity_info p span{
+    color:#ff6c00;
+    
+}
+.commodity .commodity_info .company_info{
+    margin-top:8px;
+    color:#a1a1a1;
+}
+.commodity .commodity_info  .company_indor{
+    width: 14px;
+    height: 15px;
+    background:url(../images/)
+}   
+/*信息end*/
+
+.page{
+    width: 100%;
+    text-align: center;
+}
+.page .select{
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    border:1px solid #bababa;
+    background:#ccc;
+    text-align: center;
+    line-height: 30px;
+
+}
+.page .prevPage{
+       float:left;
+       margin-left:10px;
+       width:100px;
+       text-align: center;
+       height:30px;
+}
+.page .nextPage{
+    float:right;
+       height:30px;
+        width:100px;
+       text-align: center;
+       margin-right:10px;
+}

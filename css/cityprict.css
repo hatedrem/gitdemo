@@ -1,0 +1,60 @@
+.product_list {
+    width: 100%;
+    height: auto
+}
+
+.product_list ul li {
+    float: left;
+    width: 50%;
+    padding:10px 0px 0px 10px;
+    text-align: center;
+    vertical-align: middle;
+    border:1px solid #eeeeee;
+    background:#FFFFFF;
+    box-sizing: border-box;
+    border-top-width: 0;
+    overflow: hidden;
+}
+
+.product_list ul li a {
+    display: block;
+    width: 100%;
+    height:
+}
+
+.product_list ul li a img {
+    display: block;
+    margin: 10px auto;
+    overflow: hidden;
+    width: 140px;
+    height: 140px;
+}
+
+.product_list ul li a .product_tit {
+    color: #333333;
+    line-height: 18px;
+    font-size: 14px;
+    padding: 0 8px;
+    text-align: left;
+    font-weight: bold;
+    height:36px;
+    overflow:hidden;
+}
+
+.product_list ul li a .product_price {
+    color: #ff6c00;
+    line-height: 18px;
+    font-size: 14px;
+    padding: 0 8px;
+    text-align: left;
+    height:18px;
+    margin-top:4px;
+}
+
+.product_list ul li a .product_time {
+    color: #a1a1a1;
+    font-size: 12px;
+    text-align: left;
+    padding: 6px 8px;
+
+}
